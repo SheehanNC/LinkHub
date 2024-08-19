@@ -1,0 +1,49 @@
+.card {
+    margin-bottom: 20px;
+  }
+
+
+.list-group-item {
+  cursor: pointer;
+}
+
+.list-group-item:hover {
+  background-color: #f8f9fa;
+  cursor: pointer;
+}
+  
+  .message-list {
+    max-height: 400px; /* Adjust as needed for scrollable messages */
+    overflow-y: auto; /* Enable vertical scrolling */
+  }
+  
+  .message {
+    padding: 8px 12px;
+    margin: 8px;
+    border-radius: 8px;
+    max-width: 70%;
+  }
+  
+  .text-right {
+    background-color: #DCF8C6; /* Light green for user's messages */
+    color: black; /* Adjust text color for readability */
+    align-self: flex-end; /* Align messages to the right */
+    margin-left: auto; /* Move user messages to the right */
+  }
+  
+  .text-left {
+    background-color: #E8E8E8; /* Light gray for contact's messages */
+    align-self: flex-start; /* Align messages to the left */
+    margin-right: auto; /* Move contact messages to the left */
+  }
+  
+  .message p {
+    margin-bottom: 0; /* Remove extra space below message content */
+  }
+  
+  .message small {
+    display: block;
+    margin-top: 5px;
+    color: #999; /* Light gray for timestamp */
+  }
+  

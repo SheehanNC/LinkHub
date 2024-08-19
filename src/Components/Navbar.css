@@ -1,0 +1,18 @@
+.profile-indicator {
+    position: absolute;
+    top: -5px;
+    right: -10px;
+    width: 10px;
+    height: 10px;
+    background-color: green; /* Example color */
+    border-radius: 50%;
+  }
+  
+  .profile-text {
+    position: absolute;
+    top: -5px;
+    right: -25px;
+    font-size: 12px;
+    color: white;
+  }
+  
